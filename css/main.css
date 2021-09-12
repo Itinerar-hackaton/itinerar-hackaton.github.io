@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{ 
+    background: repeat url("fundo-site-4.png");
+}
+
+.img-equipe-left{
+    margin-right:-200px;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 650px;
+    width: 100px;
+    height: auto;
+}
+
+.img-equipe-right{
+    margin-left:-200px;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 650px;
+    width: 100px;
+    height: auto;
+}
+
+.descricao p{
+    text-align: justify;
+}
+
+.container-conteudo{
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 20px;
+    background: linear-gradient(to left, white, rgba(0, 0, 0, 0.2));
+}
+
+.container-how-app-right{   
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px ;
+    border-radius: 50px;
+    background: linear-gradient(to right, white 50%, #ffb303 100%);
+    box-shadow: 1px 1px 5pt rgba(191, 191, 191, 0.6);
+}
+
+.container-how-app-left{   
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px ;
+    border-radius: 50px;
+    background: linear-gradient(to left, white 0%, #ffb303 100%);
+    box-shadow: 1px 1px 5pt rgba(191, 191, 191, 0.6);
+}
+
+.w-66{width: 66% !important;}
